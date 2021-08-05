@@ -17,13 +17,19 @@ const Footer = () => {
             </ul>
             <ul>
                 <div className="flexboxTwo">
-                <p>Følg os:</p>
-                
-                <div className="flexboxTwo-paragraph">
-                <FaFacebookSquare style={iconStyles} />
-                <GrInstagram style={iconStyles} />
-                <AiFillLinkedin style={iconStyles} />
-                </div>
+                    <p>Følg os:</p>
+
+                    <div className="flexboxTwo-paragraph">
+                        <a href="https://www.facebook.com/cphcitycenter/" target="_blank">
+                            <FaFacebookSquare style={iconStyles} />
+                        </a>
+                        <a href="https://www.instagram.com/cphcitycenter/" target="_blank">
+                            <GrInstagram style={iconStyles} />
+                        </a>
+                        <a href="https://www.linkedin.com/company/34749072" target="_blank">
+                            <AiFillLinkedin style={iconStyles} />
+                        </a>
+                    </div>
                 </div>
             </ul>
             <ul className="flexboxThree">
