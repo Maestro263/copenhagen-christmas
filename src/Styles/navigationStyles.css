@@ -1,0 +1,34 @@
+.navigation{
+    background-color: #001e6e;
+    width: 100%;
+    height: 80px;
+    padding: 0;
+}
+
+.logo{
+    background-color: #d2e1ff;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+li{
+    font-size: 14pt;
+    color: white;
+    cursor: pointer;
+    padding: 25px;
+}
+
+li:hover{
+    color: grey;
+    font-weight: bold;
+}
+
+img{
+    margin-top: 15px;
+    padding-left: 120px;
+}

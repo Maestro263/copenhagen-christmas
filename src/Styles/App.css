@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Allura');
+
+.App{
+    background:
+        -webkit-radial-gradient(white 10%, transparent 16%),
+        -webkit-radial-gradient(white 8%, transparent  16%),
+        #d2e1ff;
+        background-position: 0 0, 80px 80px;
+        background-size:160px 160px;
+}
+
+h1{
+    font-family: 'Allura', regular;
+    font-size: 64px;
+    color: #c80032;
+    margin-left: 450px;
+}
+*{
+    margin: 0;
+    padding: 0; 
+}

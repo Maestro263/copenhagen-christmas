@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.textbox{
+    width: 550px;
+    background-color: white;
+    text-align: justify;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Open Sans', regular ;
+    border-radius: 25px;
+}
