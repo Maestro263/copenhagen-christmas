@@ -13,6 +13,9 @@ function App() {
    <h1>Copenhagen Christmas</h1>
    </div>
    <Copenhagenparagraph />
+   <br/>
+   <br/>
+   <br/>
    <Footer />
     </div>
   );

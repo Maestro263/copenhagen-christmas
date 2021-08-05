@@ -2,10 +2,23 @@
     background-color: gray;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    font-size: 15pt;
 }
 
-.flexboxOne, .flexboxTwo, .flexboxThree{
+.flexboxOne, .flexboxThree{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+.flexboxTwo{
+    flex-direction: column;
+}
+
+.flexboxTwo-paragraph{
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
