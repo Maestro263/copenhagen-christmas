@@ -18,8 +18,21 @@
     flex-direction: column;
 }
 
+.flexboxTwoUl{
+justify-content: space-around;
+}
+
 .flexboxTwo-paragraph{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #c80032;
 }

@@ -9,3 +9,7 @@
 .coverimg:hover{
     filter: grayscale(0);
 }
+
+.notColored{
+    filter: grayscale(100%);
+}
