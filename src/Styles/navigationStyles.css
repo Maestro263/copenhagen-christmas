@@ -68,3 +68,7 @@ img{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .active-page{
+    color: grey;
+  }

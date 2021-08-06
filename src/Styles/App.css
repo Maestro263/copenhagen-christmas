@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Allura');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .App{
     background:
-        -webkit-radial-gradient(white 10%, transparent 16%),
-        -webkit-radial-gradient(white 8%, transparent  16%),
+        -webkit-radial-gradient(white 1%, transparent 16%),
+        -webkit-radial-gradient(white 1%, transparent  16%),
         #d2e1ff;
         background-position: 0 0, 80px 80px;
         background-size:160px 160px;
@@ -17,6 +18,7 @@ h1{
     padding: 0 0 40px 0;
 }
 *{
+    font-family: 'Open Sans', regular;
     margin: 0;
     padding: 0; 
 }

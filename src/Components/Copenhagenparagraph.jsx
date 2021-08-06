@@ -27,6 +27,15 @@ const Copenhagenparagraph = () => {
             flere gader og kvarterer. Etablering af juleudsmykningen, sker hovedsagligt på opfordring og i 
             tæt samarbejde med butikkerne.
         </p>
+        <br/>
+        <p className="medlems-paragraf textbox">Har du lyst til at være en del af at holde Copenhagen Christmas oppe. 
+            Så følg <a href="https://kcc.dk/medlemsskab/"><u>dette link</u></a> og bliv medlem hos KCC. 
+            På den måde hjælper du med at gøre København K til et hyggeligt midtpunkt, 
+            og på samme tid hjælpe erhversdrivende.</p>
+            <br/>
+            <div className="medlems-knap">
+            <a href="https://kcc.dk/medlemsskab/"><button className="knap">BLIV MEDLEM</button></a>
+            </div>
         </div>
     );
 }

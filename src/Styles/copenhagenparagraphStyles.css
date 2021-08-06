@@ -9,3 +9,23 @@
     font-family: 'Open Sans', regular ;
     border-radius: 25px;
 }
+
+.medlems-knap{
+    margin: 0px auto;
+    width: 400px;
+}
+
+.knap{
+    cursor: pointer;
+    width: 400px;
+    height: 100px;
+    border-radius: 25px;
+    font-size: 16pt;
+    background-color: #001e6e;
+    font-weight: bold;
+    color: white;
+}
+
+.knap:hover{
+    color: #c80032;
+}
