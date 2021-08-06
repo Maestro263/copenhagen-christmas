@@ -22,3 +22,25 @@ h1{
     margin: 0;
     padding: 0; 
 }
+
+@media screen and (max-width: 992px) {
+    h1{
+        white-space: nowrap;
+        margin-left: 25%;
+        }
+    .App{
+        background:
+            -webkit-radial-gradient(white 1%, transparent 16%),
+            -webkit-radial-gradient(white 1%, transparent  16%),
+            #d2e1ff;
+            background-position: 0 0, 50px 50px;
+            background-size:100px 100px;
+        }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    h1{
+        margin: auto;
+        }
+}

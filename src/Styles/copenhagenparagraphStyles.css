@@ -29,3 +29,18 @@
 .knap:hover{
     color: #c80032;
 }
+
+@media screen and (max-width: 992px) {
+    .textbox{
+        width: 600px;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+ 
+    .textbox{
+        width: 400px;
+    }
+  
+}
