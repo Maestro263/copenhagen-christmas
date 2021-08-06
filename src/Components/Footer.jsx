@@ -33,6 +33,7 @@ const Footer = () => {
                 </div>
             </ul>
             <ul className="flexboxThree">
+                <p>Telefon nr:</p>
                 <a href="tel:36856606"><p>36 85 66 06</p></a>
                 <a href="mailto:info@kcc.dk"><p>info@kcc.dk</p></a>
             </ul>
